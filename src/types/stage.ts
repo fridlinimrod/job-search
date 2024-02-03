@@ -1,5 +1,5 @@
 type Stage = {
-  name: String;
-  completed: Boolean;
-  summery: String;
+  name: string;
+  completed: boolean;
+  summery: string;
 };

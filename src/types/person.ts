@@ -1,5 +1,7 @@
-type Person = {
-  name: String;
-  phone: String;
+import Relation from "./relation";
+
+export type Person = {
+  name: string;
+  phone?: string;
   relation?: Relation;
 };
