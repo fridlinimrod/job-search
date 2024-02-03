@@ -1,6 +1,9 @@
-type Company = {
-    name: String;
-    imageURL: String;
-    international: Boolean;
-    size: Size;
-}
+import Size from "./size";
+
+export type Company = {
+  name: string;
+  imageURL: string;
+  international: boolean;
+  size: Size;
+};
+

@@ -1,1 +1,13 @@
-type Size = "small - up to 50" | "medium - 50-300" | "big - more than 300";
+enum Size {
+  "small - up to 50" = 1,
+  "medium - 50-300" = 2,
+  "big - more than 300" = 3,
+}
+
+export const sizeOptionsForDopdown = {
+  "small - up to 50": 1,
+  "medium - 50-300": 2,
+  "big - more than 300": 3,
+};
+
+export default Size;
